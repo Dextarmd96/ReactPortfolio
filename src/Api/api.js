@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 // api url
-const baseUrl = "https://django-react-portfolio-main.vercel.app/";
+const baseUrl = "https://django-react-portfolio-main.vercel.app/api";
 
 // Heroes' Section
 export const HomeDetails = createApi({
